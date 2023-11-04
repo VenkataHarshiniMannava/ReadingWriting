@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Message Form</title>
+</head>
+<body>
+    <h1>Message Form</h1>
+    <ul>
+        <li><%= messages %></li>
+    </ul>
+
+    <form action="/add" method="post">
+        <input type="text" name="message" placeholder="Enter your message" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
